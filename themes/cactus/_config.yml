@@ -17,8 +17,8 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  categories: /categories/
-  tags: /tags/
+  category: /categories/
+  tag: /tags/
   search: /search/
 #  projects: projects_url
 
