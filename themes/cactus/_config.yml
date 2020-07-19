@@ -142,6 +142,10 @@ disqus:
 
 utterance:
   enabled: true
+  repo: nokchax/blog-comment
+  issue: pathname
+  theme: photon-dark
+  crossorigin: photon-dark
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
