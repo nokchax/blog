@@ -5,3 +5,16 @@
         </div>
     </div>
 <% } %>
+<% if(page.comments && theme.utterance.enabled){ %>
+    <div class="blog-post-comments">
+        <div id="utterance">
+            <script src="https://utteranc.es/client.js"
+                    repo="nokchax/blog-comment"
+                    issue-term="pathname"
+                    theme="photon-dark"
+                    crossorigin="photon-dark"
+                    async>
+            </script>
+        </div>
+    </div>
+<% } %>
