@@ -83,7 +83,7 @@ logo:
   enabled: false
   width: 50
   height: 50
-  url: /images/logo.png
+  url: /images/favicon.png
   gravatar: false
 
 # Customize the favicons.
