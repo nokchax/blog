@@ -22,5 +22,4 @@ date: 2020-07-19 13:49:21
 - session
 - targeting
 - social comment
-- several infra service etcetera
-
+- etc several infra service
