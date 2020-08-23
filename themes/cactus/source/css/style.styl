@@ -179,43 +179,53 @@ code
     a:hover
       color: lighten($color-meta-code, 20%)
 
-    &:before, content: ""
-      display: table
+&
+:
+before
+,
+content
+:
+""
+display
+:
+table
 
-    &:after
-      clear: both
+&:after
+  clear: both
 
-  &:hover 
-    .btn-copy
-      opacity: 1
-
+&:hover
   .btn-copy
-    font-size: 1.2rem
-    position: absolute
-    right: 20px
-    opacity: 0
-    transition: opacity 0.2s ease-in
-    &:hover
-      color: $color-accent-1
+    opacity: 1
 
-  pre
-    margin: 0
-    padding: 0
-    border: none
-    background: none
+.btn-copy
+  font-size: 1.2rem
+  position: absolute
+  right: 20px
+  opacity: 0
+  transition: opacity 0.2s ease-in
 
-  table
-    width: auto
+  &:hover
+    color: $color-accent-1
 
-  td.gutter
-    text-align: right
-    opacity: .2
+pre
+  margin: 0
+  padding: 0
+  border: none
+  background: none
 
-  .line
-    height: 22px
+table
+  width: auto
+
+td.gutter
+  text-align: right
+  opacity: .2
+
+.line
+  height: 22px
 
 .postBody
   font-size: 1.0rem
+
   a
     color: $color-text
     text-decoration: none

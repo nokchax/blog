@@ -2,27 +2,27 @@
   font-family: Vazir
   src: url('../lib/vazir-font/Vazir.eot')
   src: url('../lib/vazir-font/Vazir.eot?#iefix') format('embedded-opentype'),
-       url('../lib/vazir-font/Vazir.woff2') format('woff2'),
-       url('../lib/vazir-font/Vazir.woff') format('woff'),
-       url('../lib/vazir-font/Vazir.ttf') format('truetype')
+          url('../lib/vazir-font/Vazir.woff2') format('woff2'),
+          url('../lib/vazir-font/Vazir.woff') format('woff'),
+          url('../lib/vazir-font/Vazir.ttf') format('truetype')
   font-weight: normal
 
 @font-face
   font-family: Vazir
   src: url('../lib/vazir-font/Vazir-Bold.eot')
   src: url('../lib/vazir-font/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../lib/vazir-font/Vazir-Bold.woff2') format('woff2'),
-       url('../lib/vazir-font/Vazir-Bold.woff') format('woff'),
-       url('../lib/vazir-font/Vazir-Bold.ttf') format('truetype')
+          url('../lib/vazir-font/Vazir-Bold.woff2') format('woff2'),
+          url('../lib/vazir-font/Vazir-Bold.woff') format('woff'),
+          url('../lib/vazir-font/Vazir-Bold.ttf') format('truetype')
   font-weight: bold
 
 @font-face
   font-family: Vazir
   src: url('../lib/vazir-font/Vazir-Light.eot')
   src: url('../lib/vazir-font/Vazir-Light.eot?#iefix') format('embedded-opentype'),
-       url('../lib/vazir-font/Vazir-Light.woff2') format('woff2'),
-       url('../lib/vazir-font/Vazir-Light.woff') format('woff'),
-       url('../lib/vazir-font/Vazir-Light.ttf') format('truetype')
+          url('../lib/vazir-font/Vazir-Light.woff2') format('woff2'),
+          url('../lib/vazir-font/Vazir-Light.woff') format('woff'),
+          url('../lib/vazir-font/Vazir-Light.ttf') format('truetype')
   font-weight: 300
 
 .rtl
@@ -38,7 +38,9 @@
 
     li:last-child
       margin-right: 15px !important // @stylint ignore
-      border-left: 0 !important // @stylint ignore
+      border-left: 0 !important
+
+  // @stylint ignore
 
   #header
     #logo
@@ -55,7 +57,9 @@
 
     li:last-child
       margin-right: 15px !important // @stylint ignore
-      border-left: 0 !important // @stylint ignore
+      border-left: 0 !important
+
+    // @stylint ignore
 
     #logo
       float: right
@@ -70,14 +74,14 @@
       .meta
         margin-left: 16px
         margin-right: inherit
-        
+
 @media screen and (min-width: 480px)
   .rtl
     .post-list
       .post-item
         .meta
           text-align: left
- 
+
 @media screen and (max-width: 480px)
   .rtl
     #header
